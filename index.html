@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ar">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Registration</h1>
+        <a href="file:///C:/xampp/htdocs/Login/register.html"><center>  هل لديك حساب؟</center></a>
+
+        <form method="post" action="process.php">
+            <div>
+                <label>user id</label>
+                <input type="text" name="user_id" placeholder="مثال: 1001" required>
+            </div>
+
+            <div>
+                <label>user name</label>
+                <input type="text" name="username" placeholder="الاسم" required>
+            </div>
+
+            <div>
+                <label>Phone </label>
+                <input type="text" name="phone_" placeholder="رقم الهاتف" required>
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="example@domain.com" required>
+            </div>
+
+            <div>
+                <label>password</label>
+                <input type="password" placeholder="password " required>
+            </div>
+
+            <div>
+                <label>Gender</label>
+                <select name="gender" required>
+                    <option value="">-- اختر --</option>
+                    <option value="M">M</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+
+            <div style="text-align:center;">
+                <button type="submit" class="btn">Next</button>
+            </div>
+
+            <div class="footer-note">نموذج تسجيل بسيط </div>
+        </form>
+    </div>
+</body>
+</html>
